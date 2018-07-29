@@ -1,4 +1,4 @@
-# TASKS_ES6
+# STOPER_APPLICATION_ES6
 
 In this project I created simple application - stoper.
 

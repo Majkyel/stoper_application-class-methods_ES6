@@ -73,11 +73,11 @@ const stopwatch = new Stopwatch(
     document.querySelector('.stopwatch')
 );
 
-let StartButton = document.getElementById('start');
+const startButton = document.getElementById('start');
 StartButton.addEventListener('click', () => stopwatch.start());
 
-let StopButton = document.getElementById('stop');
+const stopButton = document.getElementById('stop');
 StopButton.addEventListener('click', () => stopwatch.stop());
 
-let Restart = document.getElementById('restart');
+const restart = document.getElementById('restart');
 Restart.addEventListener('click', () => stopwatch.restart());
